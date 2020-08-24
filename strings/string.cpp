@@ -8,7 +8,13 @@
      cout << "Enter number" << endl;
      int num1;
      cin >> num1;
-     cout << num1 << endl;
+     int num2;
+     cin >> num2;
+
+    
+
+     int add = num1 + num2;
+     cout << "answer is " << add << endl;
      
      return 0;
  }
